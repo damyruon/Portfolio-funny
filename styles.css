@@ -1,0 +1,66 @@
+
+    body {
+      font-family: "Poppins", sans-serif;
+      background: rgb(237, 237, 240);
+      color: #333;
+    }
+    nav {
+ 
+      backdrop-filter: blur(1px);
+      background: rgb(255, 255, 255);
+
+    }
+
+    .text-outline-red {
+        -webkit-text-stroke: 1px rgb(0, 0, 0); /* For Webkit browsers */
+        color: white; /* Set the fill color of the text */
+    }
+
+    .hero {
+      min-height: 95vh;
+      display: flex;
+      align-items: center;
+      background: linear-gradient(135deg, #ffffff, #eef0ff);
+      text-align: center;
+      padding: 0 1rem;
+    }
+    .hero-title {
+      font-size: 3rem;
+      font-weight: 700;
+      color: #ffffff;
+    }
+    .hero-sub {
+      color: #52525b;
+      font-size: 1.1rem;
+    }
+
+    .section-title {
+      font-weight: 700;
+      color: #1D1D2B;
+              
+    }
+
+    .about-img {
+      border-radius: 20px;
+      box-shadow: 0 12px 35px rgba(0,0,0,0.1);
+    }
+
+    .project-card {
+      padding: 25px;
+      border-radius: 20px;
+      background: #fff;
+      border: 1px solid #e8e8e8;
+      transition: 0.3s;
+    }
+    .project-card:hover {
+      transform: translateY(-7px);
+      box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+      border-color: #6366f1;
+    }
+
+    .contact-box {
+      padding: 35px;
+      background: #fff;
+      border-radius: 20px;
+      box-shadow: 0 20px 40px rgba(0,0,0,0.08);
+    }
